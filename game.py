@@ -15,7 +15,7 @@ def guessing_number():
             attempts+=1
         elif guess==number:
             print("yeahh!! you guessed correct!!")
-            print(f"tou guessed in {attempts} attempts")
+            print(f"you guessed in {attempts} attempts")
             break
         else:
             print("not valid")
