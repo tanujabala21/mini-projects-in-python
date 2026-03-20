@@ -1,32 +1,66 @@
-# Mini Projects in Python
+# Python Mini Projects
 
-This repository contains small Python projects that I built while learning and practicing programming.
+A collection of foundational Python projects developed to strengthen problem-solving skills, logical thinking, and core programming concepts. These projects demonstrate hands-on experience with basic Python constructs and are part of my journey toward advanced topics such as Data Structures and Backend Development.
 
-I created these projects to improve my understanding of basic concepts like loops, functions, and problem solving.
+## Overview
+
+This repository includes three beginner-friendly applications built using Python. Each project focuses on practical implementation of fundamental programming concepts such as control flow, functions, and standard libraries.
 
 ## Projects
 
-* Number Guessing Game
-* Basic Calculator
-* More projects will be added as I continue learning
+### 1. Number Guessing Game
 
-## Why I Made This
+A command-line game where the user attempts to guess a randomly generated number.
 
-I wanted to move beyond just reading or watching tutorials and start building things on my own.
-These projects helped me practice writing code, thinking logically, and solving problems step by step.
+**Key Features:**
 
-## How to Run
+* Random number generation using the `random` module
+* Iterative guessing using loops
+* Conditional feedback (too high / too low)
+* Input validation and user interaction
 
-1. Clone this repository
-2. Open the folder in your editor
-3. Run any file using:
+### 2. Calculator
 
-```bash
-python filename.py
-```
-## What's Next
+A menu-driven calculator that performs basic arithmetic operations.
 
-I plan to keep adding more projects as I learn new concepts, especially in backend development and data structures.
+**Key Features:**
 
-## Note
-This is a learning repository, so the code may not be perfect, but it reflects my progress and consistency.
+* Supports addition, subtraction, multiplication, and division
+* Continuous execution using loops
+* Function-based modular design
+* Handles invalid inputs and division by zero
+
+### 3. Password Generator
+
+A customizable password generator that creates secure passwords based on user preferences.
+
+**Key Features:**
+
+* User-defined password length
+* Optional inclusion of uppercase letters, numbers, and special characters
+* Utilizes `random` and `string` modules
+* Generates dynamic and secure passwords
+
+## Technologies Used
+
+* Python 3
+* Standard Libraries:
+
+  * `random`
+  * `string`
+
+## Learning Outcomes
+
+Through these projects, I have developed:
+
+* Strong understanding of Python fundamentals
+* Improved problem-solving and logical thinking skills
+* Experience in writing modular and readable code
+* Ability to handle user input and edge cases
+
+## Future Enhancements
+
+* Implement graphical user interfaces (GUI) using Tkinter
+* Add password strength evaluation logic
+* Store data using file handling or databases
+* Expand into more complex real-world applications
