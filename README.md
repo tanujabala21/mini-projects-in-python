@@ -1,66 +1,68 @@
 # Python Mini Projects
 
-A collection of foundational Python projects developed to strengthen problem-solving skills, logical thinking, and core programming concepts. These projects demonstrate hands-on experience with basic Python constructs and are part of my journey toward advanced topics such as Data Structures and Backend Development.
+A collection of beginner-to-intermediate Python projects built to strengthen core programming concepts, problem-solving skills, and backend fundamentals.
 
-## Overview
+## Projects Included
 
-This repository includes three beginner-friendly applications built using Python. Each project focuses on practical implementation of fundamental programming concepts such as control flow, functions, and standard libraries.
+### Calculator
 
-## Projects
+A simple CLI-based calculator that performs:
 
-### 1. Number Guessing Game
+* Addition
+* Subtraction
+* Multiplication
+* Division
 
-A command-line game where the user attempts to guess a randomly generated number.
+### Number Guessing Game
 
-**Key Features:**
+* Random number generation
+* User input handling
+* Loop and condition-based logic
 
-* Random number generation using the `random` module
-* Iterative guessing using loops
-* Conditional feedback (too high / too low)
-* Input validation and user interaction
+### Password Generator
 
-### 2. Calculator
+* Generates strong random passwords
+* Uses characters, numbers, and symbols
 
-A menu-driven calculator that performs basic arithmetic operations.
+### Contact Book
 
-**Key Features:**
+* Add contacts
+* Delete contacts
+* Store data using dictionaries
 
-* Supports addition, subtraction, multiplication, and division
-* Continuous execution using loops
-* Function-based modular design
-* Handles invalid inputs and division by zero
+### To-Do CLI App
 
-### 3. Password Generator
+A command-line based task manager with file handling.
 
-A customizable password generator that creates secure passwords based on user preferences.
+#### Features:
 
-**Key Features:**
+* Add tasks
+* View tasks
+* Delete tasks
+* Mark tasks as completed
+* Persistent storage using a text file
 
-* User-defined password length
-* Optional inclusion of uppercase letters, numbers, and special characters
-* Utilizes `random` and `string` modules
-* Generates dynamic and secure passwords
+## Skills Learned
 
-## Technologies Used
+* Python fundamentals
+* Functions and modular coding
+* File handling (read, write, append)
+* Lists and dictionaries
+* Basic CLI application development
 
-* Python 3
-* Standard Libraries:
+## How to Run
 
-  * `random`
-  * `string`
+1. Clone the repository:
+   git clone https://github.com/tanujabala21/mini-projects-in-python.git
 
-## Learning Outcomes
+2. Navigate to the project folder:
+   cd mini-projects-in-python
 
-Through these projects, I have developed:
+3. Run any Python file:
+   python filename.py
 
-* Strong understanding of Python fundamentals
-* Improved problem-solving and logical thinking skills
-* Experience in writing modular and readable code
-* Ability to handle user input and edge cases
+## Future Improvements
 
-## Future Enhancements
-
-* Implement graphical user interfaces (GUI) using Tkinter
-* Add password strength evaluation logic
-* Store data using file handling or databases
-* Expand into more complex real-world applications
+* Convert To-Do app to JSON-based storage
+* Implement Object-Oriented Programming (OOP)
+* Build a Flask-based backend API
